@@ -5,11 +5,11 @@ import TextForm from './components/TextForm';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 
-import {
-    BrowserRouter as Router,
+// import {
+    // BrowserRouter as Router,
     // Routes,
     // Route,
-} from "react-router-dom";
+// } from "react-router-dom";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
     const showAlert = (message, type) => {
         setAlert({
             msg: message,
-            type: type
+            // type: type
         })
         setTimeout(() => {
             setAlert(null);
@@ -57,18 +57,18 @@ function App() {
 
     return (
         <>
-            <Router>
+          {/*  <Router> */}
                 <Navbar title="ABHI ABHISHEK🤘😎" toggleMode={toggleMode} />
                 <Alert alert={alert} />
-                {/*<div className="container my-3">
-                    <Routes>*/}
+                <div className="container my-3">
+                   {/* <Routes>*/}
                 {/* /users --> component 1
                          /users/home --> component 2 
                         <Route exact path="/" element={<About />}> </Route> */}
-                {/* </Routes>
-                </div>*/}
-            </Router >
-            <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" />
+             {/*  </Routes> */}
+             <TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" />
+                </div>
+             {/* </Router >*/}
         </>
     );
 }
