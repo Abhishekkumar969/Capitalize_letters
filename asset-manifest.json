@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Capitalize_letters/static/css/main.a5039e70.css",
-    "main.js": "/Capitalize_letters/static/js/main.e90b8bf1.js",
+    "main.js": "/Capitalize_letters/static/js/main.bfe1f294.js",
     "static/js/787.2d9e76d4.chunk.js": "/Capitalize_letters/static/js/787.2d9e76d4.chunk.js",
     "index.html": "/Capitalize_letters/index.html",
     "main.a5039e70.css.map": "/Capitalize_letters/static/css/main.a5039e70.css.map",
-    "main.e90b8bf1.js.map": "/Capitalize_letters/static/js/main.e90b8bf1.js.map",
+    "main.bfe1f294.js.map": "/Capitalize_letters/static/js/main.bfe1f294.js.map",
     "787.2d9e76d4.chunk.js.map": "/Capitalize_letters/static/js/787.2d9e76d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5039e70.css",
-    "static/js/main.e90b8bf1.js"
+    "static/js/main.bfe1f294.js"
   ]
 }
