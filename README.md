@@ -1,3 +1,3 @@
 # Capitalize_letters
-by react
+by react.js
 https://abhishekkumar969.github.io/Capitalize_letters/
